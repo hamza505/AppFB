@@ -1,0 +1,24 @@
+{
+  "name": "uploadFb",
+  "authors": [
+    "hamza"
+  ],
+  "description": "A mini Facebook photos exporting app",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-loading-bar": "^0.9.0",
+    "angular-bootstrap": "^1.3.3",
+    "angular": "angularjs#^1.5.5",
+    "angular-ui-router": "^0.3.0"
+  }
+}

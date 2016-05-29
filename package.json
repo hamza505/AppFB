@@ -1,0 +1,19 @@
+{
+  "name": "uploadfb",
+  "version": "1.0.0",
+  "description": "A mini Facebook photos exporting app",
+  "main": "app.module.js",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "morgan": "^1.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "hamza",
+  "license": "MIT",
+  "keywords": []
+}

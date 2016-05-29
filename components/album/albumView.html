@@ -1,0 +1,13 @@
+<h1>List of Albums</h1>
+<hr>
+<div class="row">
+    <div ng-repeat="a in albums | orderBy: 'name'" class="col-md-6">
+        <a ui-sref="picture({albumID: a.id})" class="thumbnail">
+            <img ng-src="{{a.picture.data.url}}" alt="Description" style="width:130px;height:130px;" />
+            <div class="caption">
+                <h3>{{a.name}}</h3>
+                <p>{{a.cover_photo.created_time | date:'medium'}}</p>
+            </div>
+        </a>
+    </div>
+</div>
